@@ -3,13 +3,15 @@ require('dotenv').config();
 
 const mongoose = require('mongoose');
 
-
+// Access environment variables
+const mongoURI = process.env.MONGODB_URI;
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGODB_URI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
+    await mongoose.connect(mongoURI, {
+      // Deprecated...
+      // useNewUrlParser: true,
+      // useUnifiedTopology: true,
     });
     console.log('MongoDB connected');
   } catch (error) {
