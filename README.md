@@ -47,4 +47,4 @@ SECRET_KEY=your_secret_key
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributors
-Coursera. IBM. IBM Watson. WatsonX. GPT-3. Miguel Angel Rodriguez.
+Coursera. IBM. IBM Watson. WatsonX. ChatGPT. GPT-3. Miguel Angel Rodriguez.
