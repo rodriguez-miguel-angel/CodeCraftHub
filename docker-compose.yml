@@ -5,6 +5,7 @@ services:
     ports:
       - "27018:27017"
   app:
+    # build: .
     image: user-management-service-node-mongo
     ports:
       - "3000:3000"
